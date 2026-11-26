@@ -70,7 +70,7 @@ Client code stays private; these are the problems and what I shipped.
 | --- | --- | --- | --- |
 | **WhatsApp ticket desk** | Around 50 registered companies open support tickets over WhatsApp; the bot identifies each one by code or CNPJ and logs the request. | n8n, WAHA, MySQL, Docker | In progress |
 | **Inbox triage for a construction-company director** | Filters a WhatsApp Business inbox that gets 5–20 messages a minute: flags urgent ones, sends scheduled digests, suggests meeting slots. | n8n, WhatsApp Cloud API, LLM | In progress |
-| **EuroAdega** | Online store for a liquor shop with a stock, sales and finance panel; the storefront only lists what is actually in stock. | Web app | In progress |
+| **[EuroAdega](https://github.com/Kenzokishi/euroadega)** | Online store for a liquor shop with a stock, sales and finance panel; the storefront only lists what is actually in stock. [Live demo](https://kenzokishi.github.io/euroadega/) | HTML, CSS, JavaScript | In use |
 | **[Resale tracker](https://github.com/Kenzokishi/controle-de-briques)** | Sales, stock, trade-ins and kit break-down for a PC-parts reseller, with real profit per deal and open accounts. [Live demo](https://kenzokishi.github.io/controle-de-briques/) | HTML, CSS, JavaScript | In use |
 | **[Studio F7](https://github.com/Kenzokishi/studio-f7-site)** | Site for a video and motion-design studio with a client panel to manage portfolio, brands and photos without a developer. | React, TypeScript, Supabase | Delivered |
 | **Guttoneres Engenharia** | Institutional site for a civil-engineering company in Porto Velho: service pages and a compliance page. | WordPress, HTML/CSS | [Live](https://guttoneres.com.br) |
@@ -81,19 +81,31 @@ Client code stays private; these are the problems and what I shipped.
 | --- | --- | --- |
 | **Vesálio** | 3D human-anatomy atlas for medical students, built around practical-exam drills. | In development |
 | **[Atende AI](https://github.com/Kenzokishi/atende-ai-site)** | Landing page for my WhatsApp AI-assistant service, with a chat playground and an ROI calculator (Next.js). | Code public |
-| **Balão Bomba** | Interactive game that runs by itself during TikTok LIVEs and reacts to the audience through TikFinity. | Live on Netlify |
+| **[Balão Bomba](https://github.com/Kenzokishi/balao-bomba)** | Hot-potato game that runs by itself during TikTok LIVEs: comments, likes, roses and gifts change the game in real time via TikFinity WebSocket. [Live demo](https://kenzokishi.github.io/balao-bomba/) | Live |
+| **[WhatsApp AI bot](https://github.com/Kenzokishi/whatsapp-ai-bot)** | Customer-service bot on a self-hosted Evolution API (Docker, Postgres, Redis) with Gemini replies, per-contact history and natural typing pace. | Code public |
+| **[Robot scorpion 3D](https://github.com/Kenzokishi/escorpiao-robo-3d)** | Interactive Three.js model that teaches scorpion anatomy by assembling a robot in 11 steps. [Live demo](https://kenzokishi.github.io/escorpiao-robo-3d/) | Live |
 
 ## Gallery
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<img src="assets/euroadega.jpg" alt="EuroAdega storefront" width="100%">
+<a href="https://kenzokishi.github.io/euroadega/"><img src="assets/euroadega.jpg" alt="EuroAdega storefront" width="100%"></a>
 <b>EuroAdega</b> — liquor-store site with age gate, cart that checks out on WhatsApp and an admin panel for stock, sales, promotions and finances.
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/Kenzokishi/minhas-financas"><img src="assets/minhas-financas.jpg" alt="Personal finance app dashboard" width="100%"></a>
 <b><a href="https://github.com/Kenzokishi/minhas-financas">Minhas finanças</a></b> — personal finance app in a single file: month projection, budgets per category, daily spending and CSV export. <a href="https://kenzokishi.github.io/minhas-financas/">Live demo</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://kenzokishi.github.io/escorpiao-robo-3d/"><img src="assets/escorpiao-3d.jpg" alt="Robot scorpion 3D model" width="100%"></a>
+<b><a href="https://github.com/Kenzokishi/escorpiao-robo-3d">Robot scorpion 3D</a></b> — Three.js model built entirely in code that assembles step by step to teach anatomy. <a href="https://kenzokishi.github.io/escorpiao-robo-3d/">Live demo</a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://kenzokishi.github.io/balao-bomba/"><img src="assets/balao-bomba.jpg" alt="Balão Bomba TikTok live game" width="60%"></a><br>
+<b><a href="https://github.com/Kenzokishi/balao-bomba">Balão Bomba</a></b> — automatic TikTok LIVE game driven by the audience. <a href="https://kenzokishi.github.io/balao-bomba/">Live demo</a>
 </td>
 </tr>
 </table>
