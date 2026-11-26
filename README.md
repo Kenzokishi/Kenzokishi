@@ -6,8 +6,7 @@
 <p>
   <a href="https://www.linkedin.com/in/pedro-kenzo-sales-kishi-bb4897213/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Pedro_Kenzo-000?style=flat-square&logo=linkedin&logoColor=white"></a>
   <a href="mailto:pedrokishi@gmail.com"><img alt="Email" src="https://img.shields.io/badge/pedrokishi@gmail.com-e4002b?style=flat-square&logo=gmail&logoColor=white"></a>
-  <!-- PORTFOLIO: depois de publicar o site no Netlify, troque o link abaixo e apague este comentário -->
-  <!-- <a href="https://SEU-SITE.netlify.app"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-000?style=flat-square&logo=googlechrome&logoColor=white"></a> -->
+  <a href="https://kenzokishi.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-kenzokishi.github.io-000?style=flat-square&logo=googlechrome&logoColor=white"></a>
 </p>
 
 Independent developer in Porto Velho, Brazil, and Computer Engineering student at UniSapiens. I ship backends, AI agents and automations for real businesses — engineering, solar energy, healthcare and service companies — and I build my own products on the side.
@@ -72,7 +71,7 @@ Client code stays private; these are the problems and what I shipped.
 | **WhatsApp ticket desk** | Around 50 registered companies open support tickets over WhatsApp; the bot identifies each one by code or CNPJ and logs the request. | n8n, WAHA, MySQL, Docker | In progress |
 | **Inbox triage for a construction-company director** | Filters a WhatsApp Business inbox that gets 5–20 messages a minute: flags urgent ones, sends scheduled digests, suggests meeting slots. | n8n, WhatsApp Cloud API, LLM | In progress |
 | **EuroAdega** | Online store for a liquor shop with a stock, sales and finance panel; the storefront only lists what is actually in stock. | Web app | In progress |
-| **[Resale tracker](https://github.com/Kenzokishi/controle-de-briques)** | Sales, stock, trade-ins and kit break-down for a PC-parts reseller, with real profit per deal and open accounts. | HTML, CSS, JavaScript | In use |
+| **[Resale tracker](https://github.com/Kenzokishi/controle-de-briques)** | Sales, stock, trade-ins and kit break-down for a PC-parts reseller, with real profit per deal and open accounts. [Live demo](https://kenzokishi.github.io/controle-de-briques/) | HTML, CSS, JavaScript | In use |
 | **[Studio F7](https://github.com/Kenzokishi/studio-f7-site)** | Site for a video and motion-design studio with a client panel to manage portfolio, brands and photos without a developer. | React, TypeScript, Supabase | Delivered |
 | **Guttoneres Engenharia** | Institutional site for a civil-engineering company in Porto Velho: service pages and a compliance page. | WordPress, HTML/CSS | [Live](https://guttoneres.com.br) |
 
@@ -94,7 +93,7 @@ Client code stays private; these are the problems and what I shipped.
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/Kenzokishi/minhas-financas"><img src="assets/minhas-financas.jpg" alt="Personal finance app dashboard" width="100%"></a>
-<b><a href="https://github.com/Kenzokishi/minhas-financas">Minhas finanças</a></b> — personal finance app in a single file: month projection, budgets per category, daily spending and CSV export.
+<b><a href="https://github.com/Kenzokishi/minhas-financas">Minhas finanças</a></b> — personal finance app in a single file: month projection, budgets per category, daily spending and CSV export. <a href="https://kenzokishi.github.io/minhas-financas/">Live demo</a>
 </td>
 </tr>
 </table>
