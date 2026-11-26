@@ -73,7 +73,7 @@ Client code stays private; these are the problems and what I shipped.
 | **[EuroAdega](https://github.com/Kenzokishi/euroadega)** | Online store for a liquor shop with a stock, sales and finance panel; the storefront only lists what is actually in stock. [Live demo](https://kenzokishi.github.io/euroadega/) | HTML, CSS, JavaScript | In progress |
 | **[Resale tracker](https://github.com/Kenzokishi/controle-de-briques)** | Sales, stock, trade-ins and kit break-down for a PC-parts reseller, with real profit per deal and open accounts. [Live demo](https://kenzokishi.github.io/controle-de-briques/) | HTML, CSS, JavaScript | In use |
 | **[Studio F7](https://github.com/Kenzokishi/studio-f7-site)** | Site for a video and motion-design studio with a client panel to manage portfolio, brands and photos without a developer. | React, TypeScript, Supabase | Delivered |
-| **Guttoneres Engenharia** | Institutional site for a civil-engineering company in Porto Velho: service pages and a compliance page. | WordPress, HTML/CSS | [Live](https://guttoneres.com.br) |
+| **[Guttoneres Engenharia](https://github.com/Kenzokishi/guttoneres-site)** | Institutional site for a civil and electrical engineering company in Porto Velho: aerial video hero, service pages with lazy-loaded videos, projects, team and compliance. [New version](https://kenzokishi.github.io/guttoneres-site/) | HTML, CSS, JavaScript | [Live](https://guttoneres.com.br) |
 
 ## Own products
 
