@@ -43,6 +43,16 @@ Análise de vendas de ponta a ponta de uma distribuidora fictícia de materiais 
 
 `Power BI` `DAX` `SQL` `Python`
 
+## Back-end e infraestrutura
+
+| Projeto | O que faz | Stack |
+| --- | --- | --- |
+| **[briques-api](https://github.com/Kenzokishi/briques-api)** | API do Controle de briques: estoque, vendas com rolo e fiado, desmonte de kits com rateio de custo e lucro que só é confirmado quando o dinheiro entra. Login com JWT. | Java 21, Spring Boot, PostgreSQL, Flyway, JUnit |
+| **[cotacoes-api](https://github.com/Kenzokishi/cotacoes-api)** | Mapa de cotação: compara propostas de fornecedores pela mediana, descarta as vencidas, marca preços fora da curva e exporta para Excel. | Python, FastAPI, SQLAlchemy, pytest |
+| **[docker-backup](https://github.com/Kenzokishi/docker-backup)** | Backup e restauração de volumes do Docker com checksum e retenção, e alerta por webhook quando um serviço cai. Roda pelo cron. | Bash, Docker, Linux |
+
+Todos têm testes e CI no GitHub Actions.
+
 ## Projetos para clientes
 
 Quando o projeto tem dado de cliente, o código fica privado.
@@ -109,6 +119,9 @@ Quando o projeto tem dado de cliente, o código fica privado.
 ![Power Apps](https://img.shields.io/badge/Power_Apps-000?style=flat-square&logo=powerapps&logoColor=white)
 ![Power Automate](https://img.shields.io/badge/Power_Automate-000?style=flat-square&logo=powerautomate&logoColor=white)
 ![C++](https://img.shields.io/badge/C/C++-000?style=flat-square&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-000?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-000?style=flat-square&logo=springboot&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-000?style=flat-square&logo=linux&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-000?style=flat-square&logo=git&logoColor=white)
 
 Também: SQL, APIs REST, Excel avançado, AutoCAD e GIS, e fundamentos de redes (TCP/IP, IPv4/IPv6, Ethernet).
