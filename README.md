@@ -29,6 +29,12 @@ Scanner de segurança para aplicações com IA. Ele testa injeção de prompt, v
 
 `TypeScript` `Node 20` `GitHub Actions` `OWASP LLM Top 10`
 
+### [chamados-api](https://github.com/Kenzokishi/chamados-api)
+
+API REST da central de chamados que atende empresas pelo WhatsApp: cadastro com validação de CNPJ, abertura de chamado com protocolo, fluxo de status com histórico e relatório. Documentada no Swagger, com 16 testes contra PostgreSQL de verdade e CI no GitHub Actions. O bot no n8n chama esta API.
+
+`Node.js` `TypeScript` `Express` `PostgreSQL` `Docker` `OpenAPI`
+
 ### [analise-vendas-powerbi](https://github.com/Kenzokishi/analise-vendas-powerbi)
 
 Análise de vendas de ponta a ponta de uma distribuidora fictícia de materiais de construção com 6 lojas em Rondônia: base gerada em Python, modelo em estrela, consultas SQL e relatório no Power BI com medidas DAX. A análise mostra que o faturamento cresceu 19%, mas a margem ficou parada em 20,4% porque o desconto no aço dobrou.
@@ -43,7 +49,7 @@ Quando o projeto tem dado de cliente, o código fica privado.
 
 | Projeto | O que faz | Stack | Situação |
 | --- | --- | --- | --- |
-| **Central de chamados no WhatsApp** | Cerca de 50 empresas cadastradas abrem chamados pelo WhatsApp. O bot identifica cada uma pelo código ou CNPJ e registra o pedido. | n8n, WAHA, MySQL, Docker | Em andamento |
+| **Central de chamados no WhatsApp** | Cerca de 50 empresas cadastradas abrem chamados pelo WhatsApp. O bot identifica cada uma pelo código ou CNPJ e registra o pedido. A API está em [chamados-api](https://github.com/Kenzokishi/chamados-api). | n8n, WAHA, Node.js, PostgreSQL, Docker | Em andamento |
 | **Filtro do WhatsApp de um diretor** | Organiza um WhatsApp Business que recebe de 5 a 20 mensagens por minuto: separa o que é urgente, manda resumos e sugere horários de reunião. | n8n, WhatsApp Cloud API, LLM | Em andamento |
 | **[EuroAdega](https://github.com/Kenzokishi/euroadega)** | Loja online de uma adega, com carrinho que fecha pelo WhatsApp e painel de estoque, vendas e finanças. [Demo](https://kenzokishi.github.io/euroadega/) | HTML, CSS, JavaScript | Em andamento |
 | **[Controle de briques](https://github.com/Kenzokishi/controle-de-briques)** | Compra, venda, troca e desmonte de kits para um revendedor de peças de computador, com o lucro real de cada negócio. [Demo](https://kenzokishi.github.io/controle-de-briques/) | HTML, CSS, JavaScript | Em uso |
@@ -94,7 +100,9 @@ Quando o projeto tem dado de cliente, o código fica privado.
 ![React](https://img.shields.io/badge/React-000?style=flat-square&logo=react&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-000?style=flat-square&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-000?style=flat-square&logo=nodedotjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-000?style=flat-square&logo=docker&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-000?style=flat-square&logo=supabase&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-000?style=flat-square&logo=n8n&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-000?style=flat-square&logo=powerbi&logoColor=white)
