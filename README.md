@@ -55,7 +55,7 @@ Quando o projeto tem dado de cliente, o código fica privado.
 | Projeto | O que faz | Situação |
 | --- | --- | --- |
 | **Vesálio** | Atlas 3D de anatomia humana para estudantes de medicina, focado em treino para prova prática. | Em desenvolvimento |
-| **[Atende AI](https://github.com/Kenzokishi/atende-ai-site)** | Landing page do meu serviço de atendimento com IA no WhatsApp, com simulação de conversa e calculadora de retorno (Next.js). | Código aberto |
+| **[Atende AI](https://github.com/Kenzokishi/atende-ai-site)** | Landing page do meu serviço de atendimento com IA no WhatsApp, com simulação de conversa e calculadora de retorno (Next.js). [Site](https://kenzokishi.github.io/atende-ai-site/) | No ar |
 | **[Balão Bomba](https://github.com/Kenzokishi/balao-bomba)** | Jogo de batata quente que roda sozinho nas lives do TikTok. Comentários, curtidas e presentes mudam o jogo em tempo real. [Demo](https://kenzokishi.github.io/balao-bomba/) | No ar |
 | **[WhatsApp AI bot](https://github.com/Kenzokishi/whatsapp-ai-bot)** | Bot de atendimento sobre a Evolution API (Docker, Postgres e Redis) com respostas do Gemini e histórico por contato. | Código aberto |
 | **[Escorpião-robô 3D](https://github.com/Kenzokishi/escorpiao-robo-3d)** | Modelo 3D em Three.js que ensina a anatomia do escorpião montando um robô em 11 passos. [Demo](https://kenzokishi.github.io/escorpiao-robo-3d/) | No ar |
