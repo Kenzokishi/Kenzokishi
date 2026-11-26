@@ -47,7 +47,7 @@ Quando o projeto tem dado de cliente, o código fica privado.
 | **Filtro do WhatsApp de um diretor** | Organiza um WhatsApp Business que recebe de 5 a 20 mensagens por minuto: separa o que é urgente, manda resumos e sugere horários de reunião. | n8n, WhatsApp Cloud API, LLM | Em andamento |
 | **[EuroAdega](https://github.com/Kenzokishi/euroadega)** | Loja online de uma adega, com carrinho que fecha pelo WhatsApp e painel de estoque, vendas e finanças. [Demo](https://kenzokishi.github.io/euroadega/) | HTML, CSS, JavaScript | Em andamento |
 | **[Controle de briques](https://github.com/Kenzokishi/controle-de-briques)** | Compra, venda, troca e desmonte de kits para um revendedor de peças de computador, com o lucro real de cada negócio. [Demo](https://kenzokishi.github.io/controle-de-briques/) | HTML, CSS, JavaScript | Em uso |
-| **[Studio F7](https://github.com/Kenzokishi/studio-f7-site)** | Site de um estúdio de vídeo e motion design, com painel para o cliente trocar portfólio, marcas e fotos. | React, TypeScript, Supabase | Entregue |
+| **[Studio F7](https://github.com/Kenzokishi/studio-f7-site)** | Site de um estúdio de vídeo e motion design, com painel para o cliente trocar portfólio, marcas e fotos. [Portfólio](https://kenzokishi.github.io/studio-f7-site/) | React, TypeScript, Supabase | Entregue |
 | **[Guttoneres Engenharia](https://github.com/Kenzokishi/guttoneres-site)** | Site institucional de uma empresa de engenharia civil e elétrica de Porto Velho, com páginas de serviço, obras, equipe e compliance. [Nova versão](https://kenzokishi.github.io/guttoneres-site/) | HTML, CSS, JavaScript | [No ar](https://guttoneres.com.br) |
 
 ## Projetos próprios
