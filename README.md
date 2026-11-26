@@ -71,7 +71,7 @@ Client code stays private; these are the problems and what I shipped.
 | --- | --- | --- | --- |
 | **WhatsApp ticket desk** | Around 50 registered companies open support tickets over WhatsApp; the bot identifies each one by code or CNPJ and logs the request. | n8n, WAHA, MySQL, Docker | In progress |
 | **Inbox triage for a construction-company director** | Filters a WhatsApp Business inbox that gets 5–20 messages a minute: flags urgent ones, sends scheduled digests, suggests meeting slots. | n8n, WhatsApp Cloud API, LLM | In progress |
-| **EuroAdega** | Online store for a liquor shop with a stock and finance panel; the storefront only lists what is actually in stock. | Web app | In progress |
+| **EuroAdega** | Online store for a liquor shop with a stock, sales and finance panel; the storefront only lists what is actually in stock. | Web app | In progress |
 | **Resale tracker** | Sales, stock and trade-in control for a PC-parts reseller, replacing a notebook and a spreadsheet. | Web app, Netlify | In use |
 | **[Studio F7](https://github.com/Kenzokishi/studio-f7-site)** | Site for a video and motion-design studio with a client panel to manage portfolio, brands and photos without a developer. | React, TypeScript, Supabase | Delivered |
 | **Guttoneres Engenharia** | Institutional site for a civil-engineering company in Porto Velho: service pages and a compliance page. | WordPress, HTML/CSS | [Live](https://guttoneres.com.br) |
@@ -83,6 +83,21 @@ Client code stays private; these are the problems and what I shipped.
 | **Vesálio** | 3D human-anatomy atlas for medical students, built around practical-exam drills. | In development |
 | **[Atende AI](https://github.com/Kenzokishi/atende-ai-site)** | Landing page for my WhatsApp AI-assistant service, with a chat playground and an ROI calculator (Next.js). | Code public |
 | **Balão Bomba** | Interactive game that runs by itself during TikTok LIVEs and reacts to the audience through TikFinity. | Live on Netlify |
+
+## Gallery
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<img src="assets/euroadega.jpg" alt="EuroAdega storefront" width="100%">
+<b>EuroAdega</b> — liquor-store site with age gate, cart that checks out on WhatsApp and an admin panel for stock, sales, promotions and finances.
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Kenzokishi/minhas-financas"><img src="assets/minhas-financas.jpg" alt="Personal finance app dashboard" width="100%"></a>
+<b><a href="https://github.com/Kenzokishi/minhas-financas">Minhas finanças</a></b> — personal finance app in a single file: month projection, budgets per category, daily spending and CSV export.
+</td>
+</tr>
+</table>
 
 ## Stack
 
