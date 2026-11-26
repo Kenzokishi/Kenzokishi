@@ -72,7 +72,7 @@ Client code stays private; these are the problems and what I shipped.
 | **WhatsApp ticket desk** | Around 50 registered companies open support tickets over WhatsApp; the bot identifies each one by code or CNPJ and logs the request. | n8n, WAHA, MySQL, Docker | In progress |
 | **Inbox triage for a construction-company director** | Filters a WhatsApp Business inbox that gets 5–20 messages a minute: flags urgent ones, sends scheduled digests, suggests meeting slots. | n8n, WhatsApp Cloud API, LLM | In progress |
 | **EuroAdega** | Online store for a liquor shop with a stock, sales and finance panel; the storefront only lists what is actually in stock. | Web app | In progress |
-| **Resale tracker** | Sales, stock and trade-in control for a PC-parts reseller, replacing a notebook and a spreadsheet. | Web app, Netlify | In use |
+| **[Resale tracker](https://github.com/Kenzokishi/controle-de-briques)** | Sales, stock, trade-ins and kit break-down for a PC-parts reseller, with real profit per deal and open accounts. | HTML, CSS, JavaScript | In use |
 | **[Studio F7](https://github.com/Kenzokishi/studio-f7-site)** | Site for a video and motion-design studio with a client panel to manage portfolio, brands and photos without a developer. | React, TypeScript, Supabase | Delivered |
 | **Guttoneres Engenharia** | Institutional site for a civil-engineering company in Porto Velho: service pages and a compliance page. | WordPress, HTML/CSS | [Live](https://guttoneres.com.br) |
 
