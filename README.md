@@ -38,6 +38,13 @@ Red-team tooling that proves whether an AI app leaks its prompt, its secrets or 
 
 </td>
 </tr>
+<tr>
+<td colspan="3" valign="top">
+
+**Data & BI** — Power BI dashboards, DAX and SQL that turn sales data into decisions: margin leaks, seasonality, customer concentration.
+
+</td>
+</tr>
 </table>
 
 ## Featured: [agentsec](https://github.com/Kenzokishi/agentsec)
@@ -47,6 +54,14 @@ Red-team scanner for LLM apps, AI agents and MCP servers. It fires real attacks 
 <a href="https://github.com/Kenzokishi/agentsec"><img alt="agentsec scanning its built-in vulnerable demo agent: 4 vulnerabilities, score 0/100" src="assets/agentsec-demo.svg" width="100%"></a>
 
 `TypeScript` `Node 20` `GitHub Actions` `OWASP LLM Top 10`
+
+## Data analysis: [analise-vendas-powerbi](https://github.com/Kenzokishi/analise-vendas-powerbi)
+
+End-to-end sales analysis for a (fictional) building-materials distributor with 6 stores in Rondônia: star-schema model, DAX measures with time intelligence and ABC curve, SQL with window functions, and a Power BI report versioned as a PBIP project. Finding: revenue grew 19% but margin stayed flat at 20.4% because steel discounts doubled.
+
+<a href="https://github.com/Kenzokishi/analise-vendas-powerbi"><img alt="Monthly revenue 2024 vs 2025, peaking in the dry season" src="https://raw.githubusercontent.com/Kenzokishi/analise-vendas-powerbi/main/docs/sazonalidade.svg" width="100%"></a>
+
+`Power BI` `DAX` `SQL` `Python` `Star schema`
 
 ## Built for real clients
 
@@ -58,6 +73,7 @@ Client code stays private; these are the problems and what I shipped.
 | **Inbox triage for a construction-company director** | Filters a WhatsApp Business inbox that gets 5–20 messages a minute: flags urgent ones, sends scheduled digests, suggests meeting slots. | n8n, WhatsApp Cloud API, LLM | In progress |
 | **EuroAdega** | Online store for a liquor shop with a stock and finance panel; the storefront only lists what is actually in stock. | Web app | In progress |
 | **Resale tracker** | Sales, stock and trade-in control for a PC-parts reseller, replacing a notebook and a spreadsheet. | Web app, Netlify | In use |
+| **[Studio F7](https://github.com/Kenzokishi/studio-f7-site)** | Site for a video and motion-design studio with a client panel to manage portfolio, brands and photos without a developer. | React, TypeScript, Supabase | Delivered |
 | **Guttoneres Engenharia** | Institutional site for a civil-engineering company in Porto Velho: service pages and a compliance page. | WordPress, HTML/CSS | [Live](https://guttoneres.com.br) |
 
 ## Own products
@@ -65,6 +81,7 @@ Client code stays private; these are the problems and what I shipped.
 | Project | What it does | Status |
 | --- | --- | --- |
 | **Vesálio** | 3D human-anatomy atlas for medical students, built around practical-exam drills. | In development |
+| **[Atende AI](https://github.com/Kenzokishi/atende-ai-site)** | Landing page for my WhatsApp AI-assistant service, with a chat playground and an ROI calculator (Next.js). | Code public |
 | **Balão Bomba** | Interactive game that runs by itself during TikTok LIVEs and reacts to the audience through TikFinity. | Live on Netlify |
 
 ## Stack
@@ -96,4 +113,4 @@ Client code stays private; these are the problems and what I shipped.
 
 ## Contact
 
-Open to developer roles in AI, automation and backend. Reach me on [LinkedIn](https://www.linkedin.com/in/pedro-kenzo-sales-kishi-bb4897213/) or at **pedrokishi@gmail.com**.
+Open to developer and data analyst roles: AI, automation, backend and BI. Reach me on [LinkedIn](https://www.linkedin.com/in/pedro-kenzo-sales-kishi-bb4897213/) or at **pedrokishi@gmail.com**.
